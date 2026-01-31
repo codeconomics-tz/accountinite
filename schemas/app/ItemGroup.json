@@ -1,0 +1,23 @@
+{
+  "name": "ItemGroup",
+  "label": "item Group",
+  "naming": "manual",
+  "fields": [
+    {
+      "fieldname": "image",
+      "label": "Image",
+      "section": "Default",
+      "fieldtype": "AttachImage"
+    },
+    {
+      "fieldname": "name",
+      "label": "Name",
+      "fieldtype": "Data",
+      "placeholder": "Name",
+      "section": "Default",
+      "required": true
+    }
+  ],
+  "quickEditFields": [],
+  "keywordFields": ["name"]
+}
